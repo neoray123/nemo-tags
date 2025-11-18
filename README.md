@@ -6,9 +6,9 @@
 
 **A powerful tagging system for Nemo File Manager**
 
-[![Issues](https://img.shields.io/github/issues/meowrch/meowrch?color=bd93f9&labelColor=1C2325&style=for-the-badge)](https://github.com/meowrch/nemo-tags/issues)
-[![Stars](https://img.shields.io/github/stars/meowrch/meowrch?color=9893f9&labelColor=1C2325&style=for-the-badge)](https://github.com/meowrch/nemo-tags/stargazers)
-[![License](https://img.shields.io/github/license/meowrch/meowrch?color=93b9f9&labelColor=1C2325&style=for-the-badge)](./LICENSE)
+[![Issues](https://img.shields.io/github/issues/meowrch/nemo-tags?color=bd93f9&labelColor=1C2325&style=for-the-badge)](https://github.com/meowrch/nemo-tags/issues)
+[![Stars](https://img.shields.io/github/stars/meowrch/nemo-tags?color=9893f9&labelColor=1C2325&style=for-the-badge)](https://github.com/meowrch/nemo-tags/stargazers)
+[![License](https://img.shields.io/github/license/meowrch/nemo-tags?color=93b9f9&labelColor=1C2325&style=for-the-badge)](./LICENSE)
 
 
 [![RU-LANGUAGE](https://img.shields.io/badge/README-RU-blue?color=cba6f7&labelColor=1C2325&style=for-the-badge)](./README.ru.md)
